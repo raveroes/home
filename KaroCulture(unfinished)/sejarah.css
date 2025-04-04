@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: rgb(15, 39, 45);
+    height: 100%;
+}
+.navbar-001{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.logo-karo-001{
+  font-size: 1rem;
+  font-weight: 800;
+  color: white;
+}
+
+.input-001 {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    background-color: #275965;
+    justify-content: center;
+    border-radius: 50px;
+    gap: 10.5px;
+  }
+  
+  .value-001 {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    color: white;
+    display: flex;
+    position: relative;
+    gap: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+  }
+  
+  .value-001:not(:active):hover,
+  .value-001:focus {
+    background-color: #0d4351;
+  }
+  
+  .value-001:focus,
+  .value-001:active {
+    background-color: #0d4351;
+    outline: none;
+  }
+  
+  .value-001::before {
+    content: "";
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    width: 100%;
+    height: 3px;
+    background-color: #2f81f7;
+    border-radius: 50px;
+    opacity: 0;
+  }
+  
+  .value-001:focus::before,
+  .value-001:active::before {
+    opacity: 1;
+  }
+  
+  .value-001 svg {
+    width: 15px;
+  }
+
+  .profile-001{
+    border-radius: 2rem;
+    padding: -1px;
+  }
+
+/* row pilihan atas */
+
+.pilihanatas {
+    gap: 70px;
+    width: 336px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 200px;
+    left: 100px ;
+}
+
+/* box pilihan kiri */
+.rectangle1 {
+    position: absolute;
+    width: 335px;
+    height: 250px;
+    top: 285px;
+   
+   
+}
+
+h1#header1 {
+    position: absolute;
+    width: 310.09px;
+    height: 38.66px;
+    left: 10px;
+    top: 40px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+.btnmore {
+    position: absolute;
+    width: 160px;
+    height: 49px;
+    left: 5px;
+    top: 230px;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.btnmore:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+p1#isi1{
+    position: absolute;
+    top: 130px;
+    left: 10px;
+    right: 10px;
+    text-align: justify;
+
+    font-family: 'Raleway', thin;
+    font-size: 13px;
+    font-weight: 300;
+    font-style: normal;
+    word-spacing: 4px;
+
+    color: #FFFFFF;
+}
+
+
+/* box pilihan tengah */
+.rectangle2 {
+    position: absolute;
+    width: 335px;
+    height: 250px;
+    top: 285px;
+    left: 405px;
+}
+
+h1#header2 {
+    position: absolute;
+    width: 310.09px;
+    height: 38.66px;
+    left: 10px;
+    top: 40px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+.btnmore2 {
+    position: absolute;
+    width: 160px;
+    height: 49px;
+    left: 5px;
+    top: 230px;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.btnmore2:hover {
+    text-decoration: underline;
+    cursor: pointer; 
+}
+
+p1#isi2{
+    position: absolute;
+    top: 130px;
+    left: 10px;
+    right: 10px;
+    text-align: justify;
+
+    font-family: 'Raleway', thin;
+    font-size: 13px;
+    font-weight: 300;
+    font-style: normal;
+    word-spacing: 4px;
+
+    color: #FFFFFF;
+}
+
+/* box pilihan kanan */
+
+.rectangle3 {
+    position: absolute;
+    width: 335px;
+    height: 250px;
+    top: 285px;
+    left: 810px;
+}
+
+h1#header3 {
+    position: absolute;
+    width: 334.5px;
+    height: 38.66px;
+    left: 10px;
+    top: 40px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+.btnmore3 {
+    position: absolute;
+    width: 160px;
+    height: 49px;
+    left: 5px;
+    top: 230px;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.btnmore3:hover {
+    text-decoration: underline;
+    cursor: pointer; 
+}
+
+p1#isi3{
+    position: absolute;
+    top: 130px;
+    left: 10px;
+    right: 10px;
+    text-align: justify;
+
+    font-family: 'Raleway', thin;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    word-spacing: 0px;
+
+    color: #FFFFFF;
+}
+
+
+/* row pilihan bawah */
+.pilihanbawah {
+  gap: 70px;
+  width: 336px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 600px;
+  left: 100px ;
+}
+
+/* button load more */
+/* Rectangle 149 */
+.btnLM {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 336px;
+    height: 51px;
+    left: 488px;
+    top: 1600px;
+
+    background: #0F272D;
+    color: white;
+    border: 2px solid #275965;
+    border-radius: 0px;
+    
+    font-family: 'montserrat', thin;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.btnLM:hover {
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+
+/* footer */
+.footer-home-isi-002{
+  margin-top: 70rem;
+  background-color: #275965;
+  border-radius: 5rem 5rem 0 0;
+  height: 22rem;
+  width: 100%;
+  padding: 1rem;
+}
+
+/*  */
+
+.footer-home-daleman-005{
+gap: 5rem;
+display: flex;
+margin: 10% 10% 10% 10%;
+}
+
+.footer-home-daleman-006{
+  width: 15rem;
+  text-decoration: none;
+  color: white;
+}
+
+.footer-home-daleman-006 a{
+  text-decoration: none;
+  color: white;
+}
+
+.footer-home-daleman-006 h2{
+  text-decoration: none;
+  color: white;
+  margin-left: 22%;
+  font-size: 32px;
+}
+
+/*  */
+
+.input-group-daleman-007 {
+  display: flex;
+  align-items: center;
+}
+
+.input-group-daleman-007 .input {
+  min-height: 50px;
+  max-width: 170px;
+  padding: 0 1rem;
+  color: #fff;
+  font-size: 15px;
+  border: 1px solid #0F272D;
+  border-radius: 10px 0 0 10px;
+  background-color: #0F272D;
+}
+
+.input-group-daleman-007 .button--submit {
+  height: 36px;
+  padding: .5em 1em;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  background-color: #468796;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color .3s ease-in-out;
+}
+
+.input-group-daleman-007 .button--submit:hover {
+  background-color: #5e5dcd;
+}
+
+.input-group-daleman-007 .input:focus, .input-group-daleman-007 .input:focus-visible {
+  background-color: #153a43;
+  outline: none;
+}

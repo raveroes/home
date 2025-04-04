@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100h;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: Raleway;
+    scroll-behavior: s;
+    background-image: url(assets/img/mentahan.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* navbar */
+.logo{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.logo a{
+    color: white;
+}
+nav{
+    font-size: 20px;
+    width: 65%;
+    top: 2%;
+    left: 5%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav li{
+    height: 120px;
+}
+nav a{
+    height: 100%;
+    padding: 0 50px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: rgb(135, 118, 86);
+    
+}
+nav a:hover{
+    box-shadow: 0 0 10px rgba(134, 134, 134, 0.404);
+    border-radius: 5rem;
+    transform: scale(0.8);
+    transition-duration: 0.3s;
+    transition-property: box-shadow, transform;
+}
+
+@media (max-width: 922px) {
+    nav .links,
+    nav .action_btn {
+        display: none;
+    }
+
+    nav .toggle_btn {
+        display: block;
+    }
+}
+
+/*homepage */
+section#detail1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: flex-start;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bold;
+}
+h1{
+    margin-top: 200px;
+    margin-right: 775px;
+}
+h2{
+    margin-right: 545px;
+    font-size: 20px;
+}
+.p1 {
+    font-size: 20px;
+    color: rgb(214, 173, 96);
+}
+
+/* form */
+.wrapper{
+    width: 400px;
+    color: white;
+    padding: 45px 120px;
+    font-family: Raleway;
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 70px;
+
+}
+
+.input-box#username input{
+    border-radius: 10px;
+    height: 45px;
+    border: none;
+    outline: none;
+    background-color: rgba(94, 117, 110, 100);
+}
+
+.input-box#gmail input{
+    width: 86.5%;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: rgba(94, 117, 110, 100);
+}
+
+.input-box#password input{
+    width: 86.5%;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: rgba(94, 117, 110, 100);
+    
+}
+
+.input-box input::placeholder {
+    font-size: 12px;
+    color: #aaa; /* Warna placeholder */
+    padding-left: 10px;
+    padding-bottom: 50px;
+}
+
+.wrapper .btn {
+    width: 86.5%;
+    height: 45px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: rgba(214, 173, 96, 100);
+    font-family: Raleway;
+    font-weight: 666;
+}

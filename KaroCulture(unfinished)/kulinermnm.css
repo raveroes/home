@@ -1,0 +1,574 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: rgb(15, 39, 45);
+    height: 100%;
+}
+.navbar-001{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.logo-karo-001{
+  font-size: 1rem;
+  font-weight: 800;
+  color: white;
+}
+
+.input-001 {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    background-color: #275965;
+    justify-content: center;
+    border-radius: 50px;
+    gap: 10.5px;
+  }
+  
+  .value-001 {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    color: white;
+    display: flex;
+    position: relative;
+    gap: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+  }
+  
+  .value-001:not(:active):hover,
+  .value-001:focus {
+    background-color: #0d4351;
+  }
+  
+  .value-001:focus,
+  .value-001:active {
+    background-color: #0d4351;
+    outline: none;
+  }
+  
+  .value-001::before {
+    content: "";
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    width: 100%;
+    height: 3px;
+    background-color: #2f81f7;
+    border-radius: 50px;
+    opacity: 0;
+  }
+  
+  .value-001:focus::before,
+  .value-001:active::before {
+    opacity: 1;
+  }
+  
+  .value-001 svg {
+    width: 15px;
+  }
+
+  .profile-001{
+    border-radius: 2rem;
+    padding: -1px;
+  }
+
+  .header {
+    margin-top: 17rem;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 2em;
+
+  }
+
+/* bgatas */
+
+.frame1 {
+    position: absolute;
+    width: 1350px;
+    height: 500px;
+    top: 250px;
+    z-index: -2;
+}
+
+
+
+/* bgcc */
+.frame2 {
+    position: absolute;
+    width: 1350px;
+    height: 500x;
+    top: 250px;
+    z-index: -1;
+}
+
+/* Minuman Khas Karo */
+
+.header {
+    position: absolute;
+    width: 687px;
+    height: 225px;
+    left: 50px;
+    top: 200px;
+    text-align: left;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 113px;
+
+    color: #FFFFFF;
+}
+
+/* btnminum */
+
+.btnmnm {
+    position: absolute;
+    width: 123px;
+    height: 49px;
+    left: 257px;
+    top: 1100px;
+    background-color: #275965;
+    border: none;
+    color: white;
+}
+
+/* btnmakan */
+
+.btnmkn {
+    position: absolute;
+    width: 123px;
+    height: 49px;
+    left: 106px;
+    top: 1100px;
+    outline: 2px solid #275965;
+    border: none;
+    background-color: #0F272D;
+    color: white;
+}
+
+/* row pilihan atas */
+
+.pilihanatas {
+    gap: 70px;
+    width: 336px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 1200px;
+    left: 100px ;
+}
+
+/* box pilihan kiri */
+.rectangle1 {
+    position: absolute;
+    width: 335px;
+    height: 132px;
+    top: 285px;
+   
+    background: #275965;
+}
+
+h1#header1 {
+    position: absolute;
+    width: 310.09px;
+    height: 38.66px;
+    left: 15px;
+    top: 15px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+#profile1 {
+    position: absolute;
+    display: flex;
+    top:65px;
+    left: 15px;
+}
+
+h1#usn1{
+    position: absolute;
+    width: 32px;
+    height: 18px;
+    left: 85px;
+    top: 90px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+}
+
+h1#add1 {
+    position: absolute;
+    display: flex;
+    top: 70px;
+    left: 85px;
+
+    font-family: 'Raleway', thin;
+    font-size: 15px;
+    font-weight: 200;
+    font-style: normal;
+
+    color: #FFFFFF;
+}
+
+.rectanglelike1{
+    position: absolute;
+    display: flex;
+    width: 49px;
+    height: 23px;
+    left: 245px;
+    top: 85px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 3px 4.8px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+}
+
+/* rating */
+h1#rating1{ 
+    position: absolute;
+    display: flex;
+    width: 25px;
+    height: 16px;
+    left: 25px;
+    top: 6px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+
+    color: #000000;
+}
+/* Vector */
+#like1{
+    position: absolute;
+    display: flex;
+    left: 9px;
+    top: 8px;
+    
+}
+
+/* box pilihan tengah */
+.rectangle2 {
+  position: absolute;
+  width: 335px;
+  height: 132px;
+  top: 285px;
+  left: 405px;
+  background: #275965;
+}
+
+h1#header2 {
+  position: absolute;
+  width: 310.09px;
+  height: 38.66px;
+  left: 15px;
+  top: 15px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 42px;
+
+  color: #FFFFFF;
+}
+
+#profile2 {
+  position: absolute;
+  display: flex;
+  top:65px;
+  left: 15px;
+}
+
+h1#usn2{
+  position: absolute;
+  width: 32px;
+  height: 18px;
+  left: 85px;
+  top: 90px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #FFFFFF;
+}
+
+h1#add2 {
+  position: absolute;
+  display: flex;
+  top: 70px;
+  left: 85px;
+
+  font-family: 'Raleway', thin;
+  font-size: 15px;
+  font-weight: 200;
+  font-style: normal;
+
+  color: #FFFFFF;
+}
+
+.rectanglelike2{
+  position: absolute;
+  display: flex;
+  width: 49px;
+  height: 23px;
+  left: 245px;
+  top: 85px;
+  
+  background: #FFFFFF;
+  box-shadow: 0px 3px 4.8px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+}
+
+/* rating */
+h1#rating2{ 
+  position: absolute;
+  display: flex;
+  width: 25px;
+  height: 16px;
+  left: 25px;
+  top: 6px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+
+  color: #000000;
+}
+/* Vector */
+#like2{
+  position: absolute;
+  display: flex;
+  left: 9px;
+  top: 8px;
+  
+}
+
+/* box pilihan kanan */
+
+.rectangle3 {
+  position: absolute;
+  width: 335px;
+  height: 132px;
+  top: 285px;
+  left: 810px;
+  background: #275965;
+}
+
+h1#header3 {
+  position: absolute;
+  width: 310.09px;
+  height: 38.66px;
+  left: 15px;
+  top: 15px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 42px;
+
+  color: #FFFFFF;
+}
+
+#profile3 {
+  position: absolute;
+  display: flex;
+  top:65px;
+  left: 15px;
+}
+
+h1#usn3{
+  position: absolute;
+  width: 32px;
+  height: 18px;
+  left: 85px;
+  top: 90px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #FFFFFF;
+}
+
+h1#add3 {
+  position: absolute;
+  display: flex;
+  top: 70px;
+  left: 85px;
+
+  font-family: 'Raleway', thin;
+  font-size: 15px;
+  font-weight: 200;
+  font-style: normal;
+
+  color: #FFFFFF;
+}
+
+.rectanglelike3{
+  position: absolute;
+  display: flex;
+  width: 49px;
+  height: 23px;
+  left: 245px;
+  top: 85px;
+  
+  background: #FFFFFF;
+  box-shadow: 0px 3px 4.8px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+}
+
+/* rating */
+h1#rating3{ 
+  position: absolute;
+  display: flex;
+  width: 25px;
+  height: 16px;
+  left: 25px;
+  top: 6px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+
+  color: #000000;
+}
+/* Vector */
+#like3{
+  position: absolute;
+  display: flex;
+  left: 9px;
+  top: 8px;
+  
+}
+
+/* row pilihan tengah */
+.pilihantengah {
+  gap: 70px;
+  width: 336px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 1350px;
+  left: 100px ;
+}
+
+/* row pilihan bawah */
+.pilihanbawah {
+  gap: 70px;
+  width: 336px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 1500px;
+  left: 100px ;
+}
+
+
+/* footer */
+
+.footer-home-isi-002{
+  margin-top: 110rem;
+  background-color: #275965;
+  border-radius: 5rem 5rem 0 0;
+  height: 22rem;
+  width: 100%;
+  padding: 1rem;
+}
+
+/*  */
+
+.footer-home-daleman-005{
+gap: 5rem;
+display: flex;
+margin: 10% 10% 10% 10%;
+}
+
+.footer-home-daleman-006{
+  width: 15rem;
+  text-decoration: none;
+  color: white;
+}
+
+.footer-home-daleman-006 a{
+  text-decoration: none;
+  color: white;
+}
+
+.footer-home-daleman-006 h2{
+  text-decoration: none;
+  color: white;
+  margin-left: 22%;
+  font-size: 32px;
+}
+
+/*  */
+
+.input-group-daleman-007 {
+  display: flex;
+  align-items: center;
+}
+
+.input-group-daleman-007 .input {
+  min-height: 50px;
+  max-width: 170px;
+  padding: 0 1rem;
+  color: #fff;
+  font-size: 15px;
+  border: 1px solid #0F272D;
+  border-radius: 10px 0 0 10px;
+  background-color: #0F272D;
+}
+
+.input-group-daleman-007 .button--submit {
+  height: 36px;
+  padding: .5em 1em;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  background-color: #468796;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color .3s ease-in-out;
+}
+
+.input-group-daleman-007 .button--submit:hover {
+  background-color: #5e5dcd;
+}
+
+.input-group-daleman-007 .input:focus, .input-group-daleman-007 .input:focus-visible {
+  background-color: #153a43;
+  outline: none;
+}
